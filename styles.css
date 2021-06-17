@@ -9,3 +9,51 @@ body{
 button{
     color: #fff;
 }
+
+.header {
+    margin: 40px 20px;
+    font-size: 0;
+    line-height: 45px;
+}   
+  
+li {
+    display: inline;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.logo {
+    width: 50%;
+}
+
+.navbar {
+    width: 70%;
+    margin: 25px;
+    text-align: left;
+    font-family: sans-serif;
+    color:#025157;
+}
+
+.actions {
+    width: 15%;
+    margin: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sign {
+    color: #67b54b;
+}
+
+.button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+  }
+}
