@@ -1,5 +1,5 @@
 body{
- background-color: rgba(141, 143, 1, 0.171);
+ background-color: rgba(200, 237, 238, 0.808);
 }
 
 button{
@@ -60,6 +60,7 @@ li {
     padding: 5%;
 }
 
+<<<<<<< HEAD
 .video {
     flex: ;
 }
@@ -67,4 +68,8 @@ li {
 .boton2 {
     background-color: #67b54b;
     
+=======
+.email {
+    background-color: #67b54b;   
+>>>>>>> develop
 }
