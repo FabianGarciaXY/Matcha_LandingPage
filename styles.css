@@ -1,5 +1,5 @@
 body{
- background-color: rgba(200, 237, 238, 0.808);
+ background-color: rgba(194, 194, 194, 0.808);
 }
 
 button{
@@ -21,15 +21,21 @@ li {
     font-size: 16px;
 }
 
-.logo {
-    width: 50%;
+.logo-matcha {
+    margin: 3px 3px;
+    padding-top: 15px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-width: 10px;
+    background-color: lightyellow;
+    border-radius: 5px;
 }
 
 .navbar {
     width: 70%;
     margin: 25px;
     text-align: left;
-    font-family: sans-serif;
+    font-family: georgia;
     color:#025157;
 }
 
@@ -52,24 +58,52 @@ li {
     border: 0;
     border-radius: 5px;
 }
-.publicidad{
+
+.imagen_cap {
+    margin: 5%;
+}
+
+.cheems {
+    border-radius: 20px;
+    border-style: double;
+    padding: 3px;
+    border-color: white;
+    background-color: rgb(34, 0, 0);
+    margin: 35px 15px;
+    width: 250px;
+}
+
+.publish {
+    /* container styles if any */
+  }
+
+  .publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+
+  .publish > p {
+      font-size: 15px;
+      color: #343434;
+      line-height: 1.5;
+      margin-bottom: 20px;
+  }
+
+  .publish > form {
+      display: flex;
+  }
+
+  .publish > form p {
+      color: #025157;
+      margin-right: 18px;
+  }
+
+.promo {
     display: flex;
-    background-color: rgb(177, 209, 198);
-    margin: 25%;
-    border-radius: 4%;
-    padding: 5%;
 }
 
-<<<<<<< HEAD
-.video {
-    flex: ;
-}
-
-.boton2 {
-    background-color: #67b54b;
-    
-=======
-.email {
-    background-color: #67b54b;   
->>>>>>> develop
+.fondo {
+    width: 100%;
 }
