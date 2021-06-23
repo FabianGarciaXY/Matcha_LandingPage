@@ -47,8 +47,9 @@ li {
     font-weight: 600;
 }
 
-.sign {
-    color: #67b54b;
+.top-button {
+    margin-left: auto;
+    /* PENDIENTE */ 
 }
 
 .button {
@@ -61,16 +62,6 @@ li {
 
 .imagen_cap {
     margin: 5%;
-}
-
-.cheems {
-    border-radius: 20px;
-    border-style: double;
-    padding: 3px;
-    border-color: white;
-    background-color: rgb(34, 0, 0);
-    margin: 35px 15px;
-    width: 250px;
 }
 
 .publish {
@@ -102,8 +93,29 @@ li {
 
 .promo {
     display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
 }
 
-.fondo {
-    width: 100%;
+.cheems {
+    border-radius: 20px;
+    border-style: double;
+    padding: 3px;
+    border-color: white;
+    background-color: rgb(34, 0, 0);
+    margin: 35px 15px;
+    width: 250px;
 }
+
+.videoxd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.videoxd img {
+    width: 120px;
+    margin-top: 10px;
+}
+
