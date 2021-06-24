@@ -1,5 +1,6 @@
 .body{
- background-color: rgba(194, 194, 194, 0.808);
+    background-color: rgba(194, 194, 194, 0.808);
+    
 }
 
 button{
@@ -71,23 +72,20 @@ li {
     margin: 5%;
 }
 
-.publish {
-    /* container styles if any */
-  }
 
-  .publish h3 {
+.publish h3 {
     font-family: "Alegreya", serif;
     font-size: 40px;
     line-height: 48px;
     color: #025157;
-  }
+}
 
-  .publish > p {
+.publish > p {
       font-size: 15px;
       color: #343434;
       line-height: 1.5;
       margin-bottom: 20px;
-  }
+}
 
   .publish > form {
       display: flex;
@@ -134,13 +132,6 @@ li {
     border-radius: 2px;
 }
 
-.fin {
-    width: 15%;
-    margin: auto;
-    display: flex;
-    border-radius: 3px;
-}
-
 .fixed-header {
     position: fixed;
     top: 0;
@@ -150,7 +141,32 @@ li {
     border-radius: 3px;
 }
 
-.fixed-header ma {
+main {
     margin-top: 285px;
     text-align: center;
-  }
+}
+
+.fin {
+    width: 15%;
+    margin: auto;
+    display: flex;
+    border-radius: 3px;
+}
+
+.features {
+    background-color: teal;
+    display: grid;
+    /*
+    grid-template-columns: repeat(2, 300px);
+    grid-template-columns: 500px 1fr;
+    grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 330px);
+}
+
+.features-art {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 660px;
+    grid-template-rows: repeat(2, 1fr);
+}
