@@ -3,12 +3,8 @@
     
 }
 
-button{
-    color: #fff;
-}
-
 .header {
-    margin: 10px 20px;
+    margin: 6px 12px;
     font-size: 0;
     line-height: 35px;
     background-color: rgb(32, 49, 63);
@@ -23,11 +19,14 @@ li {
     display: inline-block;
     font-size: 23px;
     border-top: 0;
+    margin-top: 0px;
 }
 
 .logo-matcha {
-    margin: 7px;
-    padding-top: 9px;
+    margin-bottom: 0px;
+    margin-top: 16px;
+    margin-left: 16px;
+    padding-top: 8px;
     padding-bottom: 0px;
     padding-left: 12px;
     padding-right: 12px;
@@ -37,7 +36,7 @@ li {
 
 .navbar {
     width: 70%;
-    margin: 9px;
+    margin: 0px;
     text-align: center;
     font-family: georgia;
     color: white;
@@ -69,7 +68,11 @@ li {
 }
 
 .top-button {
-    margin-left: auto;
+    margin-bottom: 10px;
+    color: azure;
+    margin-top: 0;
+    margin-bottom: 1%;
+    padding-top: 0px;
     /* PENDIENTE */ 
 }
 
@@ -79,6 +82,8 @@ li {
     padding: 12px 14px;
     border: 0;
     border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 0%;
 }
 
 .publish h3 {
@@ -150,15 +155,8 @@ li {
 }
 
 main {
-    margin-top: 285px;
+    margin-top: 200px;
     text-align: center;
-}
-
-.fin {
-    width: 15%;
-    margin: auto;
-    display: flex;
-    border-radius: 3px;
 }
 
 .features {
@@ -186,4 +184,11 @@ main {
 .features-grid {
     background-color:   beige;
     padding: 4%;
+}
+
+.fin {
+    width: 15%;
+    margin: auto;
+    display: flex;
+    border-radius: 3px;
 }
