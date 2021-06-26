@@ -61,10 +61,13 @@ li {
 }
 
 .xform {
-    width: 90%;
+    width: 50%;
     margin: auto;
-    background-color: rgb(76, 91, 92);
-    border-radius: 3px;
+    background-color: rgb(41, 25, 21);
+    border-radius: 6px;
+    text-align: center;
+    color: gray;
+
 }
 
 .top-button {
@@ -86,28 +89,36 @@ li {
     margin-bottom: 0%;
 }
 
+.publish {
+    margin: 1%;
+    padding: 20px 40px;
+}
+
 .publish h3 {
     font-family: "Alegreya", serif;
     font-size: 40px;
     line-height: 48px;
     color: #025157;
+    text-align: center;
 }
 
 .publish > p {
-      font-size: 15px;
-      color: #343434;
-      line-height: 1.5;
-      margin-bottom: 20px;
+    font-size: 15px;
+    color: #343434;
+    line-height: 1.5;
+    margin: 5% 5%;
+    text-align: justify;
 }
 
-  .publish > form {
-      display: flex;
-  }
+.publish > form {
+    display: flex;
+    align-items: center;
+}
 
-  .publish > form p {
-      color: #025157;
-      margin-right: 18px;
-  }
+.publish > form p {
+    color: #025157;
+    margin-right: 18px;
+}
 
 .promo {
     background-color: beige;
@@ -170,7 +181,10 @@ main {
     grid-template-rows: repeat(2, 330px);
     margin-left: 1px;
     border-radius: 8px;
-    padding: 5% 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+    
 }
 
 .features-art {
@@ -179,14 +193,18 @@ main {
     height: 660px;
     grid-template-rows: repeat(2, 1fr);
     margin-top: 5px;
+    
 }
 
 .features-grid {
     background-color:   beige;
     padding: 4%;
+    margin: 1%;
+    text-align: center;
 }
 
 .fin {
+    margin-top: 5%;
     width: 15%;
     margin: auto;
     display: flex;
