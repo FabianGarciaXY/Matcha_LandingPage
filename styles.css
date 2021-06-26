@@ -179,21 +179,23 @@ main {
     grid-template-columns: 1fr 1fr; */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 330px);
-    margin-left: 1px;
-    border-radius: 8px;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 8px;
+    margin-right: 8px;
     margin-bottom: 5%;
-    
+    border-radius: 8px;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;   
 }
 
 .features-art {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 660px;
+    height: 300px;
     grid-template-rows: repeat(2, 1fr);
-    margin-top: 5px;
-    
+    align-items: stretch;
+    background-color: blue;
 }
 
 .features-grid {
