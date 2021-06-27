@@ -1,5 +1,5 @@
 .body{
-    background-color: rgba(194, 194, 194, 0.808);
+    background-color: #a09c9c;
     
 }
 
@@ -210,6 +210,7 @@ main {
 }
 
 .fin {
+
     margin-top: 5%;
     width: 15%;
     margin: auto;
