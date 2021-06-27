@@ -90,8 +90,8 @@ li {
 }
 
 .publish {
-    margin: 1%;
-    padding: 20px 40px;
+    margin: 2%;
+    padding: 10px 10px;
 }
 
 .publish h3 {
@@ -103,11 +103,12 @@ li {
 }
 
 .publish > p {
-    font-size: 15px;
+    font-size: 16px;
     color: #343434;
-    line-height: 1.5;
+    line-height: 1.7;
     margin: 5% 5%;
     text-align: justify;
+    overflow: auto;
 }
 
 .publish > form {
@@ -193,7 +194,8 @@ main {
     display: grid;
     position: static;
     grid-template-columns: repeat(2, 1fr);
-    height: 340px;
+    height: 370px;
+    width: 600px;
     grid-template-rows: repeat(2, 1fr);
     background-color: rgb(37, 30, 30);
     border-radius: 3%;
@@ -203,14 +205,31 @@ main {
 .features-grid {
     background-color:   beige;
     padding: 3%;
-    margin: 10% 50%;
+    margin: 30% 50%;
     border-radius: 3%;
-    text-align: center;
     width: 300px;
+    height: 150px;
+    overflow: auto;
+}
+
+.figure3 {
+    display: inline;
+}
+
+.image3 {
+    display: inline;
+    background-color: transparent;
+    width: 15%;
+}
+
+.features * > h3 {
+    color: darkslateblue;
+}
+
+.features * > p { 
 }
 
 .fin {
-
     margin-top: 5%;
     width: 15%;
     margin: auto;
