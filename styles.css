@@ -238,10 +238,8 @@ main {
     padding: 5px;
 }
 
-.fin {
-    margin-top: 5%;
-    width: 15%;
-    margin: auto;
-    display: flex;
-    border-radius: 3px;
+.finxd {
+    display: block;
+    height: 10%;
+    width: 4%;
 }
