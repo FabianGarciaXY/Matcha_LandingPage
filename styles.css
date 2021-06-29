@@ -55,23 +55,30 @@ li {
     margin-bottom: 50px;
 }
 
-.actions {
-    width: 15%;
-    margin: 10px;
-    text-align: left;
-    font-size: 14px;
-    font-weight: 600;
-}
-
 .xform > * {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    width: 15%;
+    width: 240px;
     margin: auto;
     background-color: rgb(41, 25, 21);
     border-radius: 3px;
     color: gray;
+}
+    .xform > * input {
+        border-color: blanchedalmond;
+        width: 190px;
+        padding: 3px 9px;
+        border-radius: 3px;
+    }
+    .xform > * button {
+        color: white;
+        background-color: #025157;
+        padding: 12px 14px;
+        border: 0;
+        border-radius: 5px;
+        margin-top: 4%;
+        margin-bottom: 4%;
 }
 
 .top-button {
@@ -93,37 +100,46 @@ li {
     margin-bottom: 0%;
 }
 
-.publish {
-    margin: 2%;
-    padding: 10px 10px;
-}
+    .publish {
+        margin: 2%;
+        padding: 10px 10px;
+    }
 
-.publish h3 {
-    font-family: "Alegreya", serif;
-    font-size: 40px;
-    line-height: 48px;
-    color: #025157;
-    text-align: center;
-}
+    .publish h3 {
+        font-family: "Alegreya", serif;
+        font-size: 40px;
+        line-height: 48px;
+        color: #025157;
+        text-align: center;
+    }
 
-.publish > p {
-    font-size: 16px;
-    color: #343434;
-    line-height: 1.7;
-    margin: 5% 5%;
-    text-align: justify;
-    overflow: auto;
-}
+    .publish > p {
+        font-size: 16px;
+        color: #343434;
+        line-height: 1.7;
+        margin: 5% 5%;
+        text-align: justify;
+        overflow: auto;
+    }
 
-.publish > form {
-    display: flex;
-    align-items: center;
-}
+    .publish > form {
+        display: flex;
+        align-items: center;
+    }
 
-.publish > form p {
-    color: #025157;
-    margin-right: 18px;
-}
+    .publish > form p {
+        color: #025157;
+        margin-right: 18px;
+    }
+
+    .publish > * button {
+        margin-top: 30px;
+        color: white;
+        background-color: #025157;
+        padding: 12px 14px;
+        border: 0;
+        border-radius: 5px;
+    }
 
 .promo {
     background-color: beige;
@@ -239,13 +255,36 @@ main {
   .features .feature-card .feature-image img {
     margin-top: 0;
     height: 100%;
+}
+
+.cost {
+    text-align: center;
+}
+  .cost > * h1 {
+    font-size: 50px;
+    color: #025157;
+    }
+  .cost > * p {
+    margin: auto 320px;
+    font-size: 21px;
   }
 
+  .cost > * a {
+      color: #025157;
+  }
+  .cost-buttom {
+    margin-top: 30px;
+    color: white;
+    background-color: #025157;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px; 
+}
+
 .finxd {
-    width: 90%;
-    margin-left: auto;
-    margin-bottom: 5%;
-    border-radius: 3px;
+    width: 60%;
+    margin: 100px 20%;
+    border-radius: 6px;
 }
 
 /** dispositivos móviles en vista viewport (vertical) */
@@ -292,20 +331,34 @@ main {
 
 /** dispositivos pequeños en vista landscape (horizontal) */
 @media (min-width: 576px) and (max-width: 767px) {
-  
+    .body {
+        background-color: #b37699;
+    }
+    main {
+        margin-top: 230px;
+    }
+    .navbar {
+        display: none;
+    }
+    .top-button {
+        display: none;
+    }
 }
 
 /** dispositivos medianos (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
-  
+    .body {
+        background-color: burlywood;
+    }
+    main {
+        margin-top: 240px;
+    }
 }
 
 /** dispositivos grandes (desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {
-  
 }
 
 /** dispositivos extra grandes (monitores grandes, tvs) */
 @media (min-width: 1200px) {
-  
 }
