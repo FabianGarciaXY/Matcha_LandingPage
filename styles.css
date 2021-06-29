@@ -1,6 +1,5 @@
 .body{
-    background-color: #a09c9c;
-    
+    background-color: #a09c9c;    
 }
 
 .header {
@@ -46,7 +45,7 @@ li {
     border-radius: 5px;
 }
 
-.logo-matcha2 {  
+.banner {  
     margin: 15px;  
     display: flex;
     width: 500px;
@@ -65,7 +64,7 @@ li {
 }
 
 .xform {
-    width: 50%;
+    width: 70%;
     margin: auto;
     background-color: rgb(41, 25, 21);
     border-radius: 6px;
@@ -242,8 +241,8 @@ main {
   }
 
 .finxd {
-    width: 30%;
-    margin-left: 35%;
+    width: 90%;
+    margin-left: auto;
     margin-bottom: 5%;
     border-radius: 3px;
 }
@@ -253,7 +252,7 @@ main {
     .body {
         background-color: #b37777;
     }
-    .navbar, .actions, {
+    .navbar, .actions {
         display: none;
     }
 
@@ -263,12 +262,31 @@ main {
     main {
         margin-top: 130px;
     }
-    .navbar {
-        display: none;
-    }
     .top-button {
         display: none;    
     }
+
+    .logo-matcha {
+        align-items: center;
+    }
+    .banner {
+        width:  100%;
+        margin: auto;
+    }
+
+    .xform {
+        flex-direction: column;
+        height: 60%;
+    }
+    .promo { 
+        flex-direction: column;
+        max-width: 100%; 
+    }
+
+    .features {
+        grid-template-columns: 1fr;A
+    }
+    
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
