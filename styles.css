@@ -257,28 +257,82 @@ main {
     height: 100%;
 }
 
-.cost {
-    text-align: center;
+.stories {
+    display: grid;
+    grid-template-columns: 1 fr 1 fr;
 }
-  .cost > * h1 {
-    font-size: 50px;
-    color: #025157;
-    }
-  .cost > * p {
-    margin: auto 320px;
-    font-size: 21px;
-  }
 
-  .cost > * a {
-      color: #025157;
-  }
-  .cost-buttom {
+.cost {
+  text-align: center;
+}
+
+.costh1 {
+  font-size: 50px;
+  color: #025157;
+}
+
+.costp {
+  margin: auto 320px;
+  font-size: 21px;
+}
+
+.costhref {
+  color: #025157;
+}
+
+.cost-buttom {
     margin-top: 30px;
+    margin-bottom: 50px;
     color: white;
     background-color: #025157;
     padding: 12px 14px;
     border: 0;
     border-radius: 5px; 
+}
+
+.cost-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 110px;
+    background-color: rgb(232, 229, 207);
+}
+
+.cost-cards1 {
+    display: flex;
+    flex-direction: column;
+    border: black;
+    width: 220px;
+    height: 690px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    margin: auto;
+    text-align: center;
+}   
+
+.cost-cards > * img {
+    width: 170px;
+    height: 370px;
+}
+
+.cost-cards > * h3 {
+    font-size: 30px;
+    color: #025157;
+    font-family: "Alegreya", serif;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.cost-cards > * p {
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 5px 25px;
+    text-align: center;
+}
+
+.cost-cards > * a {
+    font-size: 15px;
+    color: lightcoral;
+    line-height: 1.5;
 }
 
 .finxd {
@@ -324,7 +378,7 @@ main {
     }
 
     .features {
-        grid-template-columns: 1fr;A
+        grid-template-columns: 1fr;
     }
 
 }
