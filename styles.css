@@ -259,8 +259,33 @@ main {
 
 .stories {
     display: grid;
-    grid-template-columns: 1 fr 1 fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: #a1d683;
 }
+
+.stories-text1 {
+    color: #025157;
+    font-size: 51px;
+    line-height: 61px;
+    font-family: "Alegreya", serif;
+}
+
+.stories-text2 {
+    line-height: 1.5;
+    font-family: "Alegreya", serif;
+    color: #343434;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.stories-text {    
+margin: 70px 130px;
+}
+
+.stories-img {
+
+}
+
 
 .cost {
   text-align: center;
