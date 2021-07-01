@@ -34,7 +34,7 @@ li {
     background-color: white;
 }
 
-.navbar {
+/* .navbar {
     width: 70%;
     margin: 0px;
     margin-bottom: 2%;
@@ -43,7 +43,7 @@ li {
     font-family: georgia;
     color: white;
     border-radius: 5px;
-}
+} */
 
 .banner {  
     margin: 15px;  
@@ -366,14 +366,24 @@ margin: 70px 130px;
     border-radius: 6px;
 }
 
+.carousel-inner {
+    width: 500px;
+    height: 300px;
+    margin: 70px auto;
+}
+
+.d-block {
+    margin:auto;
+}
+
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
     .body {
         background-color: #b37777;
     }
-    .navbar, .actions {
+    /* .navbar, .actions {
         display: none;
-    }
+    } */
 
     h1 {
         font-size: 30px;
@@ -416,9 +426,9 @@ margin: 70px 130px;
     main {
         margin-top: 230px;
     }
-    .navbar {
+    /* .navbar {
         display: none;
-    }
+    } */
     .top-button {
         display: none;
     }
