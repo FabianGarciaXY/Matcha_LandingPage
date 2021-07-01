@@ -34,17 +34,6 @@ li {
     background-color: white;
 }
 
-/* .navbar {
-    width: 70%;
-    margin: 0px;
-    margin-bottom: 2%;
-    text-align: center;
-    position: relative;
-    font-family: georgia;
-    color: white;
-    border-radius: 5px;
-} */
-
 .banner {  
     margin: 15px;  
     display: flex;
@@ -62,18 +51,26 @@ li {
     width: 290px;
     margin: auto;
     background-color: rgb(41, 25, 21);
-    border-radius: 3px;
+    border-radius: 5px;
     color: gray;
 }
+    .xform > * label {
+        font-size: 16px;
+        margin: 10px 40px;
+        
+    }
+
     .xform > * input {
         border-color: blanchedalmond;
-        width: 190px;
+        width: 230px;
         padding: 3px 9px;
         border-radius: 3px;
     }
     .xform > * button {
         color: white;
         background-color: #025157;
+        width: 100px;
+        margin: 10px 50px;
         padding: 12px 14px;
         border: 0;
         border-radius: 5px;
@@ -87,7 +84,6 @@ li {
     margin-top: 0;
     margin-bottom: 1%;
     padding-top: 0px;
-    /* PENDIENTE */ 
 }
 
 .button {
@@ -100,7 +96,7 @@ li {
     margin-bottom: 0%;
 }
 
-    .publish {
+.publish {
         margin: 2%;
         padding: 10px 10px;
     }
@@ -120,26 +116,17 @@ li {
         margin: 5% 5%;
         text-align: justify;
         overflow: auto;
-    }
+}
 
-    .publish > form {
-        display: flex;
-        align-items: center;
-    }
+.publish-form {
+    font-family: "Alegreya", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    order: ;
+}
 
-    .publish > form p {
-        color: #025157;
-        margin-right: 18px;
-    }
-
-    .publish > * button {
-        margin-top: 30px;
-        color: white;
-        background-color: #025157;
-        padding: 12px 14px;
-        border: 0;
-        border-radius: 5px;
-    }
 
 .promo {
     background-color: beige;
@@ -281,11 +268,6 @@ main {
 .stories-text {    
 margin: 70px 130px;
 }
-
-.stories-img {
-
-}
-
 
 .cost {
   text-align: center;
