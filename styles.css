@@ -59,7 +59,7 @@ li {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    width: 240px;
+    width: 290px;
     margin: auto;
     background-color: rgb(41, 25, 21);
     border-radius: 3px;
@@ -375,6 +375,15 @@ margin: 70px 130px;
 .d-block {
     margin:auto;
 }
+
+.btnp {
+    margin: 20px 550px;    
+}
+
+.cardxd {
+    margin: 50px;
+}
+
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
