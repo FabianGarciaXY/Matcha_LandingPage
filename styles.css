@@ -270,7 +270,12 @@ margin: 70px 130px;
 }
 
 .cost {
+  margin: 6% 2%;  
   text-align: center;
+}
+
+.cost > div {
+    border-radius: 5px;
 }
 
 .costh1 {

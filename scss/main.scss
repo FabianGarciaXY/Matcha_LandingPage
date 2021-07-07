@@ -1,12 +1,13 @@
 @use '_global' as *;
 
 .blog {
-  background-color: $white;
+  background-color: white;
   max-width: unset;
   padding: 5% 10%;
+  margin: 5% 2%;
 
   .title {
-    @extend %base-title;
+    @extend %base-title !optional;
   }
 
   .process-list {
