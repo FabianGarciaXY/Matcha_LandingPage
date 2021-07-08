@@ -10,6 +10,46 @@
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
+.button-inline {
+    color: white;
+    background-color: #67b54b;
+    margin-left: 9px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+.title-container > * h1 {
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+.title-container > * p {
+    color: #46484c;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.button-collapse {
+    color: white;
+    background-color: #379b13;
+    margin-left: 9px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.collapse 
   
 li {
     display: inline;
@@ -76,25 +116,9 @@ li {
         border-radius: 5px;
         margin-top: 4%;
         margin-bottom: 4%;
+    }
 }
 
-.top-button {
-    margin-bottom: 10px;
-    color: azure;
-    margin-top: 0;
-    margin-bottom: 1%;
-    padding-top: 0px;
-}
-
-.button {
-    color: white;
-    background-color: #67b54b;
-    padding: 12px 14px;
-    border: 0;
-    border-radius: 5px;
-    margin-top: 2%;
-    margin-bottom: 0%;
-}
 
 .publish {
         margin: 2%;
@@ -305,8 +329,7 @@ margin: 70px 130px;
 .cost-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 110px;
-    background-color: rgb(232, 229, 207);
+    padding: 10px 60px;
 }
 
 .cost-cards1 {
@@ -354,8 +377,9 @@ margin: 70px 130px;
 }
 
 .carousel-inner {
-    width: 500px;
-    height: 300px;
+    width: fit-content;
+    max-width: 500px;
+    max-height: 300px;
     margin: 70px auto;
 }
 
@@ -363,8 +387,17 @@ margin: 70px 130px;
     margin:auto;
 }
 
-.btnp {
-    margin: 20px 550px;    
+.button-collapse {
+    background-color: transparent;
+    padding:
+    5px;
+}
+
+.button-collapse > button {
+    position: center;
+    background-color: #025157;
+    border-color: #025157;
+    padding: 8px 30px;
 }
 
 .cardxd {
