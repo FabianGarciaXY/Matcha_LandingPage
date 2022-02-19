@@ -1,4 +1,4 @@
-# Matcha_LandingPage
+# Matcha Landing page
 
 This is a totally responsive landing page using HTML, CSS and Boostrap only.
 
